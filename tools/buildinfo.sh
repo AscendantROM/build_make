@@ -58,4 +58,4 @@ echo "ro.descendant.device=$DESCENDANT_DEVICE"
 
 echo "# end build properties"
 
-VEN_INFO=vendor/descendant/build/tools/buildinfo.sh && test -f $VEN_INFO && source $VEN_INFO
+VEN_INFO=vendor/ascendant/build/tools/buildinfo.sh && test -f $VEN_INFO && source $VEN_INFO
